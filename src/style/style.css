@@ -1,5 +1,44 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: OpenSans;
+  box-sizing: border-box; }
+
+.start {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3); }
+  .start::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(../img/start-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.trats {
+  height: 100vh; }
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-weight: normal;
+  font-style: normal; }
+.text-start {
+  font-family: OpenSans;
+  font-size: 85px;
+  color: white; }
+  @media (max-width: 1260px) {
+    .text-start {
+      font-size: 65px; } }
 
 /*# sourceMappingURL=style.css.map */

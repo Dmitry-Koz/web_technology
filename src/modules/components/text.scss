@@ -1,0 +1,9 @@
+.text-start {
+    font-family: OpenSans;
+    font-size: 85px;
+    color: white;
+
+    @media(max-width: 1260px){
+        font-size: 65px;
+    }
+}

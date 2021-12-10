@@ -3,6 +3,10 @@
     padding: 0;
     font-family: OpenSans;
     box-sizing: border-box;
+    
+    a {
+        text-decoration: none;
+    }
 }
 
 .start {
@@ -31,11 +35,31 @@
     }
 }
 
-.jam {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
+.short {
+    max-width: 1920px;
+    .contein {
+        display: flex;
+        margin-left: 200px;
+        & :last-child {
+            margin-right: 0;
+        }
 
+        .item {
+            max-width: 47%;
+            margin-right: 250px;
+
+            &-el {
+                display: flex;
+                // justify-content: space-between;
+                align-items: center;
+                margin-bottom: 40px;
+                max-width: 500px;
+
+                .text {
+                    margin-left: 60px;
+                }
+            }
+        }
+
+    }
 }

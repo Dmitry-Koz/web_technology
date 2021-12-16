@@ -38,7 +38,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 40px;
-        max-width: 500px; }
+        max-width: 300px; }
         .short .contein .item-el .text {
           margin-left: 60px; }
 
@@ -94,17 +94,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 15px;
+  padding: 20px 30px;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 100; }
   .header-logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
     .header-logo .logo {
-      width: 100px;
+      width: 80px;
       transition: all 0.5s; }
       .header-logo .logo :hover {
         transform: scale(1.2); }

@@ -9,6 +9,8 @@
     padding: 20px 30px;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 100;
+    transform: translateY(-300px);
+    transition: transform 0.4s;
 
     &-logo {
         width: 80px;

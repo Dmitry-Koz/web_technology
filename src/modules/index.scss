@@ -1,4 +1,4 @@
-$base-color: #FF6F3C;
+$base-color: #5b1fc2;
 
 *{
     margin: 0;
@@ -16,6 +16,7 @@ $base-color: #FF6F3C;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
     // background-image: url(../img/start-fon.jpg);
     // background-position: center center;
     // background-repeat: no-repeat;
@@ -41,14 +42,16 @@ $base-color: #FF6F3C;
     max-width: 1920px;
     .contein {
         display: flex;
+        justify-content: space-between;
+
         margin-left: 200px;
-        & :last-child {
-            margin-right: 0;
-        }
+        // & :last-child {
+        //     margin-right: 0;
+        // }
 
         .item {
             max-width: 47%;
-            margin-right: 250px;
+            // margin-right: 250px;
 
             &-el {
                 display: flex;
@@ -58,7 +61,7 @@ $base-color: #FF6F3C;
                 // max-width: 300px;
 
                 .text {
-                    max-width: 200px;
+                    // max-width: 200px;
                     margin-left: 60px;
                 }
             }

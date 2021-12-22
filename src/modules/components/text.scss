@@ -3,6 +3,13 @@
     color: white;
     font-size: 35px;
 
+    @media(max-width: 1520px){
+        font-size: 30px;
+    }
+    @media(max-width: 1024px){
+        font-size: 25px;
+    }
+
 
     &-start {
         font-size: 85px;
@@ -17,6 +24,13 @@
         color: white;
         font-size: 60px;
         padding: 130px 0 30px 0;
+
+        @media(max-width: 1520px){
+            font-size: 50px;
+        }
+        @media(max-width: 1024px){
+            font-size: 40px;
+        }
 
         span {
             color: $base-color;

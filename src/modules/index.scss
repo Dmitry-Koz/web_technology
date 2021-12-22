@@ -45,6 +45,10 @@ $base-color: #5b1fc2;
         justify-content: space-between;
 
         margin-left: 200px;
+
+        @media(max-width: 1520px){
+            margin-left: 130px;
+        }
         // & :last-child {
         //     margin-right: 0;
         // }
@@ -84,7 +88,7 @@ $base-color: #5b1fc2;
             img{
                 padding-top: 40px;
                 //max-width: 65%;
-                width: 100%;
+                width: 80%;
                 margin: 0 auto;
             }
         }
@@ -111,7 +115,7 @@ $base-color: #5b1fc2;
 
             img {
                 padding-top: 40px;
-                width: 77%;
+                width: 65%;
             }
         }
     }

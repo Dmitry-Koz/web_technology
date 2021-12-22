@@ -45,11 +45,11 @@
             border-bottom: 1.5px solid transparent;
 
             &:hover {
-                border-bottom: 1.5px solid red;
+                border-bottom: 1.5px solid $base-color;
             }
             &:hover span {
                 transition: all 0.5s;
-                color: red;
+                color: $base-color;
             }
         }
     }

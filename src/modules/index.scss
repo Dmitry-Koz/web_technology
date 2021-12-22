@@ -1,3 +1,5 @@
+$base-color: #FF6F3C;
+
 *{
     margin: 0;
     padding: 0;
@@ -64,3 +66,123 @@
 
     }
 }
+
+.pwa {
+
+    &-content {
+        color: white;
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            img{
+                padding-top: 40px;
+                //max-width: 65%;
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &-logo {
+        font-weight: bolder;
+        font-size: 200px;
+        color: white;
+        span {
+            color: $base-color;
+        }
+    }
+}
+
+.spa {
+
+    &-content {
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                padding-top: 40px;
+                width: 77%;
+            }
+        }
+    }
+}
+
+.mobile {
+    &-content {
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                padding-top: 40px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.django {
+
+    &-content {
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                padding-top: 40px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.express {
+
+    &-content {
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                padding-top: 40px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.react {
+    &-content {
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                padding-top: 40px;
+                width: 30%;
+            }
+        }
+    }
+}
+
+
+// .active {
+//     opacity: 0;
+//     transform: translateY(-100%);
+//     background-color: $base-color;
+// }

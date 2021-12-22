@@ -5,8 +5,6 @@ $(window).scroll(function(){
     $('.parallax').css({
         'transform' : 'translate(0%,'+ st/7 +'%)'
     });
-    console.log($('.header').offset().top);
-    console.log($('.pwa').offset().top);
 
     if ($('.header').offset().top >= $('.pwa').offset().top - 300){
         $('.header').css({
@@ -26,4 +24,8 @@ $('a[href*="#"]').click(function() {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 600);
     return false;
+});
+
+$('.contain-start').on('click', function(){
+    $(this).addClass('active');
 });
